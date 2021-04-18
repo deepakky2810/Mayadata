@@ -58,7 +58,7 @@ const Meetings = () => {
         if (timer.current !== null) {
             clearTimeout(timer.current);
         }
-        timer.current = setTimeout((name) => {
+        timer.current = setTimeout(() => {
             console.log(name);
             setSearchResults([]);
             const array = [];
@@ -66,7 +66,7 @@ const Meetings = () => {
             let to = "2099-12-31";
             if (searchParams.from !== "") from = searchParams.from;
             if (searchParams.to !== "") to = searchParams.to;
-            if (name !== '') {
+            if (name !== '' && name !== undefined) {
                 setSearchActive(true);
                 
                 for (const row of rowsArray) {
