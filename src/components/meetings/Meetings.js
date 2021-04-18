@@ -8,6 +8,7 @@ import {useDispatch, useSelector } from 'react-redux';
 
 import {addRows} from '../../actions/rowsArrayActions';
 
+
 const Meetings = () => {
 
     const flags = useSelector(state => state.flags);
@@ -85,9 +86,7 @@ const Meetings = () => {
     return (
         <div className={meetingsClass}>
             <h1>My Meetings</h1>
-
-                
-
+    
             <div className="search" >
                     <span className="param-name">
                         <img src={SearchIcon} alt="SearchIcon"/>

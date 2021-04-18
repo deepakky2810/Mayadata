@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../../css/components/sidebar.css';
 import MenuIcon from '../../assets/icons/menu_white_24dp.svg';
 import HomeIcon from '../../assets/icons/home_white_24dp.svg';
