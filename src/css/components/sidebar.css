@@ -1,0 +1,67 @@
+@import '../reset.css';
+
+.sidebar {
+  position: absolute;
+  height: 100vh;
+  width: 4vw;
+  transition: width 0.3s ease-in-out;
+  background-color: #1E5F74;
+  z-index: 4;
+}
+
+.sidebar.open {
+  width: 15.625vw;
+}
+
+.header {
+    margin-top: 3.7vh;
+    margin-left: 1.1vw;
+    display: flex;
+    align-items: center;
+}
+
+div .para, div .p-margin {
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin-left: 2vw;
+}
+
+.home {
+    height: 6vh;
+    min-height: 40px;
+    margin-top: 6.6vh;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.background-transparent {
+    background-color: transparent;
+}
+
+.img-margin {
+    margin-left: 1.1vw;
+}
+
+.p-margin {
+    margin-left: 1.4vw;
+    width: 9vw;
+    min-width: 9vw;
+}
+
+.hidden {
+    display: none;
+}
+
+.about {
+    height: 6vh;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.focused {
+    background-color: #133B5C;
+}

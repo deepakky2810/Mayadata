@@ -1,0 +1,45 @@
+@import '../reset.css';
+
+.table-wrapper {
+    overflow-y: scroll;
+        height: 30vh;
+
+}
+
+table {
+    margin-top: 3.15vh;  
+}
+
+thead {
+    height: 15vh;
+}
+table thead th {
+    padding-left: 4vw;
+}
+
+table thead th p {
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: #1E5F74;
+    width: max-content;
+    letter-spacing: -0.025rem;
+    line-height: 15vh;
+}
+
+.row {
+    height: 10vh;
+}
+
+.col {
+    padding-left: 4vw;
+    line-height: 10vh;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: -0.025rem;
+}
+
+.deleteIcon {
+    position: relative;
+    top: 1.3vh;
+    cursor: pointer;
+}
+
