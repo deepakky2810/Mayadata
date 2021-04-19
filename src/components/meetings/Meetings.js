@@ -80,7 +80,7 @@ const Meetings = () => {
                 setSearchActive(false);
             }
             setSearchResults([...array]);
-        }, 2000);
+        }, 700);
     };
 
     return (
